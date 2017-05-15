@@ -65,7 +65,7 @@ void convertPayload(byte array[], byte len){
 //connect to network
 
     WiFly.begin();
-    if (!WiFly.join("Joe", "Diamond.888")) { //use if network has passphrase
+    if (!WiFly.join("Joe", "pass")) { //use if network has passphrase
     //if (!WiFly.join("ssid")) { // use id it doesn't
       Serial.println("Association failed.");
       
